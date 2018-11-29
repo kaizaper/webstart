@@ -120,7 +120,7 @@ body {
 }
 
 .terminal-innerCon {
-    width: 1010px;
+    width: 100vw;
     height: 300px;
     margin: auto;
     padding: 0px 20px;
