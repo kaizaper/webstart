@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Kai | Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="NPL1270018 (Edited by Kai)">
+  <meta name="description" content="My Homepage to the insternet">
+  <link rel="shortcut icon" href="images/favicon.png">
+  <link type="text/css" rel="stylesheet" href="css/stylesheet.css">
+  <script type="text/javascript" src="js/jquery-2.2.2.min.js"></script>
+</head>
+<body>
+  <div id="wrapper">
+    <div class="terminal-con">
+      <div class="terminal-row ext-top">
+        <div class="terminal-label"><span class="hl-gray">---------------------------------------------------</span></div>
+      </div>
+      <div class="search-row">
+        <input id="search-field" type="text" name="search-field" placeholder=">> Search the Google... " onkeypress="return search(event)" autofocus="true" />
+        <script type="text/javascript">
+function search(e) {
+  if (e.keyCode === 13) {
+    // Get's via jquery the search field
+    var searchText = $("#search-field");
+    // Opens queried page in a new tab
+    window.open("https://google.nl/search?q=" + searchText.val() + "&kp=1&kl=fr-fr&kh=1&kg=p&k5=1&kae=t&k1=-1&kaj=m", "_blank");
+    // Reset search field input
+    searchText.val("");
+    return false;
+  }
+}
+        </script>
+      </div>
+      <div class="terminal-row">
+        <div class="terminal-label"><span class="hl-gray">---------------------------------------------------</span></div>
+      </div>
+      <div class="terminal-row ext-btm">
+      </div>
+
+      <div class="terminal-row">
+      </div>
+      <div class="terminal-innerCon">
+        <div class="favCon">
+          <div class="favCon-header">
+            <span>/R/</span>
+          </div>
+          <div class="favCon-body">
+            <a href="http://reddit.com/r/unixporn" onfocus="if(this.blur)this.blur()" target="_blank">
+              <div class="favCon-el">
+                <div class="favCon-el-content">
+                  <span>Unixporn</span>
+                </div>
+              </div>
+            </a>
+            <a href="https://reddit.com/mechanicalkeyboards" onfocus="if(this.blur)this.blur()" target="_blank">
+              <div class="favCon-el">
+                <div class="favCon-el-content">
+                  <span>Keebs</span>
+                </div>
+              </div>
+            </a>
+            <a href="https://www.reddit.com/new/" onfocus="if(this.blur)this.blur()" target="_blank">
+              <div class="favCon-el">
+                <div class="favCon-el-content">
+                  <span>Home "New"</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="favCon">
+          <div class="favCon-header">
+            <span>Spont</span>
+          </div>
+          <div class="favCon-body">
+            <a href="https://www.zendesk.com" onfocus="if(this.blur)this.blur()" target="_blank">
+              <div class="favCon-el">
+                <div class="favCon-el-content">
+                  <span>ZenDesk</span>
+                </div>
+              </div>
+            </a>
+            <a href="https://www.jira.com/" onfocus="if(this.blur)this.blur()" target="_blank">
+              <div class="favCon-el">
+                <div class="favCon-el-content">
+                  <span>Jira</span>
+                </div>
+              </div>
+            </a>
+            <a href="https://www.confluence.com/" onfocus="if(this.blur)this.blur()" target="_blank">
+              <div class="favCon-el">
+                <div class="favCon-el-content">
+                  <span>Confluence</span>
+                </div>
+              </div>
+            </a>
+            <a href="https://www.slack.com/" onfocus="if(this.blur)this.blur()" target="_blank">
+              <div class="favCon-el">
+                <div class="favCon-el-content">
+                  <span>Slack</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="favCon">
+          <div class="favCon-header">
+            <span>News / Reading</span>
+          </div>
+          <div class="favCon-body">
+            <a href="https://news.ycombinator.com" onfocus="if(this.blur)this.blur()" target="_blank">
+              <div class="favCon-el">
+                <div class="favCon-el-content">
+                  <span>Hacker News</span>
+                </div>
+              </div>
+            </a>
+            <a href="https://www.thespec.ca" onfocus="if(this.blur)this.blur()" target="_blank">
+              <div class="favCon-el">
+                <div class="favCon-el-content">
+                  <span>TheSpec.ca</span>
+                </div>
+              </div>
+            </a>
+            <a href="https://www.theregister.co.uk/" onfocus="if(this.blur)this.blur()" target="_blank">
+              <div class="favCon-el">
+                <div class="favCon-el-content">
+                  <span>Register</span>
+                </div>
+              </div>
+            </a>
+            <a href="https://www.darkreading.com" onfocus="if(this.blur)this.blur()" target="_blank">
+              <div class="favCon-el">
+                <div class="favCon-el-content">
+                  <span>Dark Reading</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div><div class="terminal-row terminal-extend"></div>
+  </div>
+</body>
+
+</html>
