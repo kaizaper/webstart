@@ -37,11 +37,12 @@ body {
 }
 
 #wrapper {
-    width: 80vw;
+    width: 100vw;
     height: 80vh;
     margin: 0;
     padding: 0;
     background-color: var(--nord0);
+    float:none;
 }
 
 /* Search row */
@@ -120,8 +121,8 @@ body {
 }
 
 .terminal-innerCon {
-    width: 100vw;
-    height: 300px;
+    width: 60vw;
+    height: 50vh;
     margin: auto;
     padding: 0px 20px;
     background-color: var(--nord1);
