@@ -51,8 +51,8 @@ body {
     height: 50px;
     margin: 0px auto 0px auto;
     padding: 0px 20px;
-    background-color: var(--nord1);
-    border: solid 1px var(--nord1);
+    background-color: var(--nord3);
+    border: solid 1px var(--nord3);
     opacity: 0.9;
     border-radius: 0px;
 }
@@ -61,17 +61,17 @@ body {
     width: 60vw;
     height: 50px;
     padding: 0px 10px 0px 0px;
-    background-color: var(--nord1);
-    border: solid 0px var(--nord1);
+    background-color: var(--nord7);
+    border: solid 0px var(--nord7);
     font-family: "Fira Mono";
     font-size: 18px;
-    color: #f2f2f2;
+    color: var(--nord6);
     float: left;
     outline: none;
 }
 
 #search-field::-moz-placeholder {
-    color: #ffffff !important;
+    color: var(--nord5) !important;
   /*color: #8c8c8b !important;*/
 }
 
@@ -85,8 +85,8 @@ body {
     height: 40px;
     margin: auto;
     padding: 0px 20px;
-    background-color: var(--nord1);
-    border: solid 1px var(--nord1);
+    background-color: var(--nord3);
+    border: solid 1px var(--nord3);
     opacity: 0.9;
     text-align: left;
 }
@@ -110,7 +110,7 @@ body {
     padding: 10px 0px;
     font-family: 'Fira Mono', monospace;
     font-size: 18px;
-    color: #f2f2f2;
+    color: var(--nord3);
     float: left;
     text-align: left;
 }
@@ -125,8 +125,8 @@ body {
     height: 50vh;
     margin: auto;
     padding: 0px 20px;
-    background-color: var(--nord1);
-    border: solid 1px var(--nord1);
+    background-color: var(--nord3);
+    border: solid 1px var(--nord3);
     opacity: 0.9;
 }
 
